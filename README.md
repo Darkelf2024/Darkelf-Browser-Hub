@@ -4,7 +4,7 @@
        width="900">
 </p>
 
-# 🧩 Darkelf Browser v3.0 — Ultimate Privacy, Zero Trace
+# 🧩 Darkelf Browser — Ultimate Privacy, Zero Trace
 
 **Enhanced Security | Post-Quantum Ready | Anonymous Research | Zero Trace**
 
