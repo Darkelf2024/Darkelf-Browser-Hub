@@ -19,7 +19,7 @@ Every variant is built to eliminate forensic footprints, block tracking, and sec
 
 | Edition | Framework | Focus | Status |
 |----------|------------|--------|---------|
-| **Mini Browser** | PySide6 | Lightweight Stealth / RAM-only | ✅ v3.10.4.8 |
+| **RedSec Browser** | PySide6 | Lightweight Stealth / RAM-only | ✅ v4.0 |
 | **Vault Browser** | PyQt5 | ML-KEM Vault / Anti-Forensics | ✅ v3.0.6 |
 | **Post-Quantum Browser** | PySide6 | PQC Hybrid TLS / Research | ✅ v3.0.6 |
 | **Cocoa Browser** | Cocoa (macOS) | Native macOS Privacy Build | ✅ v4.0 |
@@ -128,11 +128,11 @@ Full list: [Contributors.md](https://github.com/Darkelf2024/Darkelf-Browser/blob
 | # | Repository | Description |
 |---|-------------|--------------|
 | 1 | [Darkelf-Browser-Hub](https://github.com/Darkelf2024/Darkelf-Browser) | Core docs, anti-forensics, swap-disable guides |
-| 2 | [Darkelf-Mini-Browser](https://github.com/Darkelf2024/Darkelf-Mini-Browser) | Lightweight PySide6 browser (v3.10.4.8) |
+| 2 | [Darkelf-RedSec-Browser] | Private Repo |
 | 3 | [Darkelf-PyQt5-Browser-PQC](https://github.com/Darkelf2024/Darkelf-PyQt5-Browser-PQC) | PQC Vault edition (v3.0.6) |
 | 4 | [Darkelf-PySide6-Browser-PQC](https://github.com/Darkelf2024/Darkelf-PySide6-Browser-PQC) | Post-Quantum hardened build (v3.0.6) |
 | 5 | [Darkelf-Cocoa-Browser](https://github.com/Darkelf2024/Darkelf-Cocoa-Browser) | macOS-native variant |
-| 6 | [Darkelf-Shadow](https://github.com/Darkelf2024/Darkelf-Shadow) | High-opsec stealth edition |
+| 6 | [Darkelf-Shadow] | Linux & Windows edition |
 | 7 | [Darkelf-Retro-CLI-Hub](https://github.com/Darkelf2024/Darkelf-Retro-CLI-Hub) | Retro CLI launcher |
 | 8 | [Darkelf-CLI-Tools](https://github.com/Darkelf2024/Darkelf-CLI-Tools) | Wipers, Tor, secure CLI utilities |
 | 9 | [Darkelf-OSINT-Ai](https://github.com/Darkelf2024/Darkelf-OSINT-Ai) | Darkelf Ai, search, scripts |
