@@ -8,4 +8,4 @@
 - ## Development Credits
 
 - **TeeM** – Lead Web Developer  
-  GitHub: https://github.com/USERNAME
+  GitHub: https://github.com/OpenSource-For-Freedom
