@@ -22,8 +22,8 @@ Every variant is built to eliminate forensic footprints, block tracking, and sec
 | **RedSec Browser** | PySide6 | Lightweight Stealth / RAM-only | ✅ v4.0 |
 | **Vault Browser** | PyQt5 | ML-KEM Vault / Anti-Forensics | ✅ v3.0.6 |
 | **Post-Quantum Browser** | PySide6 | PQC Hybrid TLS / Research | ✅ v3.0.6 |
-| **Cocoa Browser** | Cocoa (macOS) | Native macOS Privacy Build | ✅ v4.0.8 |
-| **Shadow Browser** | PyQt5 | Hardened General Purpose - Linux/Windows | 🧪 Beta |
+| **Cocoa Browser** | Cocoa (macOS) | Native macOS Privacy Build | ✅ v4.0.9 |
+| **Shadow Browser** | PySide6 | Hardened General Purpose - Linux/Windows | 🧪 Beta |
 | **Darkelf Retro CLI Hub** | Python | CLI Retro Tools | ✅ Public |
 | **Darkelf Web Browser Site** | HTML/CSS | Docs / Website / Branding | ✅ Public |
 | **PQC Engine / Mini Engine** | PySide6 | PQC Core Engine | ⚙️ In Development |
