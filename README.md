@@ -239,7 +239,6 @@ Users are responsible for ensuring compliance with local laws and export regulat
 | Component | License |
 |------------|----------|
 | Docs (this repo) | LGPL-3.0-or-later |
-| PyQt5 Editions | GPL-3.0-or-later |
 | PySide6 Editions | LGPL-3.0-or-later |
 | CLI / Shell | LGPL-3.0-or-later |
 
