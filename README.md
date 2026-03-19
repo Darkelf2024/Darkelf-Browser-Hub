@@ -35,46 +35,132 @@ Every variant is built to eliminate forensic footprints, block tracking, and sec
 ## 🔒 Core Features
 
 ### 🕵️‍♂️ Privacy & Security
-- **Tor Integration** for `.onion` and DNS-level privacy  
-- **Forensic-Resistant Sessions** (RAM-only, auto-wipe)  
-- **DoH/DoT Fallback** (Cloudflare privacy DNS)  
-- **Anti-Fingerprinting** (Canvas/WebGL/WebRTC blocked)  
-- **TLS X25519 / PQC Hybrid Encryption** (ML-KEM-768/1024 + X25519)  
-- **Custom Ad Blocker + NoScript Filtering**  
-- **HTTPS Enforcement + CSP Strengthening**  
 
-### 🧩 Post-Quantum & AI Hardened
-- **Post-Quantum Encryption:** ML-KEM / Kyber768-ready  
-- **PQCryptAPI Integration** for key storage and secure buffers  
-- **Hybrid PQC + Classical TLS Logic** for real-world compatibility  
-- **AI-assisted TLS rotation and stealth cipher mimicry**  
+- **Ephemeral Browsing (Memory-Only)**  
+  No cookies, cache, or history persisted — all data is wiped on exit  
 
-### 🧠 Anti-Forensics Technology
-- **Forensic Tool Detection:** Wireshark, OllyDbg, Volatility, etc.  
-- **Self-Destruct Sequence:** 7-pass file shredding (DoD 5220.22-M)  
-- **Memory Wiping & Secure Buffer Clearing**  
-- **Swap Disable Support:** macOS, Linux, Windows  
-- **Stealth Logging + Auto-Destruct on Exit**  
-- **Encrypted Cookies (SHA-256 + Fernet)**  
-- **Dynamic Path Randomization + Traffic Obfuscation**  
+- **First-Party & Tab Isolation**  
+  Domain-level and tab-level isolation prevents cross-site tracking and session leakage  
 
-### 🧱 Network & Sandboxing
-- Randomized delays, Tor bridge obfs4 integration  
-- Chromium flags: WebRTC off, local storage disabled, strict XSS audit  
-- Metadata stripping for files (PDF, images)  
-- Full sandbox process isolation  
+- **HTTPS Enforcement**  
+  Automatic upgrade to secure connections where possible  
+
+- **Tracker & Telemetry Blocking**  
+  Blocks common tracking domains, scripts, and known telemetry endpoints  
+
+- **Anti-Fingerprinting Detection**  
+  Detects fingerprinting behavior (canvas, WebGL, automation patterns) via MiniAI  
+
+---
+
+### 🧬 Post-Quantum & Integrity Layer
+
+- **SHA3-512 Request Fingerprinting**  
+  Each navigation request is hashed using a quantum-resistant algorithm  
+
+- **Session Integrity Chain**  
+  Requests are linked into a continuous chain to detect tampering or replay  
+
+- **TLS Trust Consistency Monitoring (TOFU)**  
+  Detects unexpected certificate identity changes during a session  
+
+- **Visual PQ Indicator System**  
+  - `PQ✓` → Integrity active, trust stable  
+  - `PQ⚠` → Trust inconsistency detected  
+
+- **Passive Design**  
+  No modification to network traffic or protocols — fully transparent  
+
+---
+
+### 🧠 Darkelf MiniAI Sentinel (On-Device IDS)
+
+Detects and monitors:
+
+- Tracking & fingerprinting attempts  
+- Automated scanning behavior  
+- Suspicious request patterns  
+- Potential exploit activity  
+
+Runs locally with **no telemetry or external calls**
+
+---
+
+### 🧯 Automatic Threat Response
+
+- **Session Lockdown Mode**
+  - Stops all active tabs  
+  - Freezes navigation  
+  - Displays threat state  
+
+- **Cooldown-Based Recovery**  
+  Automatically restores functionality after stabilization  
+
+---
+
+### 🌐 Network Behavior
+
+- Secure defaults using macOS WebKit networking  
+- Blocking of unsafe or unsupported protocols  
+- Lightweight request inspection pipeline  
+
+---
+
+### 🔐 Privacy Model
+
+- No telemetry or analytics  
+- No persistent user profile  
+- Ephemeral downloads and temporary storage  
+- Minimal forensic footprint  
 
 ---
 
 ## 🧰 Developer Features
-- Modular **PyQt5 / PySide6** architecture  
-- **Custom Adblock Pattern Management**  
-- **JavaScript Hooks** for dynamic blocking  
-- **TLS Cipher Mimicking (Firefox ESR)**  
-- **Hotkey and Command Support**  
-- **Cross-platform:** macOS (Intel & Apple Silicon), Linux, Windows  
+
+- **Native macOS (PyObjC + WebKit)**  
+  Full Cocoa UI integration  
+
+- **Modular Architecture**  
+  Clean separation of:
+  - Navigation logic  
+  - Security layers  
+  - MiniAI detection  
+
+- **JavaScript Injection Hooks**  
+  Enables runtime defenses (CSP, fingerprint detection, blocking logic)  
+
+- **Custom Security Layers**
+  - PQ integrity system  
+  - Trust monitoring  
+  - Network inspection  
 
 ---
+
+## 🧭 Platform
+
+- macOS (Intel & Apple Silicon)  
+- Built on native WebKit  
+
+---
+
+## ⚠️ Notes
+
+Darkelf focuses on **practical, deployable privacy and integrity protections**.
+
+Features previously experimental or external (Tor routing, full PQ TLS, forensic shredding engines, etc.) are not part of the current core runtime.
+
+---
+
+## 🧠 Philosophy
+
+> Privacy should be enforced by architecture, not user configuration.
+
+Darkelf prioritizes:
+
+- Ephemeral execution  
+- Isolation by default  
+- Passive integrity verification  
+- Minimal attack surface  
 
 ## 🧮 Tech Stack
 
@@ -163,10 +249,12 @@ Logos, trademarks, and screenshots are © respective owners.
 ---
 
 ## 🌟 Summary
-Darkelf Browser redefines **anonymous browsing**, **post-quantum cryptography**, and **forensic resistance**.  
-Built by security researchers for advanced users — it combines stealth, privacy, and cryptographic rigor in one unified ecosystem.
 
-**Explore. Research. Stay invisible.**
+Darkelf Browser delivers **ephemeral execution**, **on-device threat detection**, and **post-quantum integrity validation** in a native macOS environment.
+
+Designed for advanced users, it minimizes data persistence while enforcing isolation and continuous integrity monitoring.
+
+**Browse with confidence. Detect anomalies. Preserve privacy.**
 
 > “Darkelf does exactly what it is supposed to do.” — *Darkelf Dev Team*
 
