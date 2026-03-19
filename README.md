@@ -188,10 +188,9 @@ See full setup instructions on [Darkelf Discord (Invite Only)](https://discord.g
 
 ## ⚗️ Future Development
 - ✅ **Mac App** — In progress  
-- ⚙️ **Arch Linux Package** — Coming soon  
 - 🔒 **Darkelf PQNet / PQC Mini Engine** — Development build  
-- 🧩 **Darkelf Post-Quantum Proxy** — In R&D  
-- 🎬 **YouTube Fullscreen Fix** — In testing  
+- 🧩 **Darkelf Post-Quantum Proxy** 
+  
 
 ---
 
