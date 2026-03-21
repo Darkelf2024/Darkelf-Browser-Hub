@@ -20,7 +20,7 @@ Every variant is built to eliminate forensic footprints, block tracking, and sec
 | Edition | Framework | Focus | Status |
 |----------|------------|--------|---------|
 | **RedSec Browser** | PySide6 | Lightweight Stealth / RAM-only | ✅ v4.0 |
-| **Post-Quantum Browser** | PySide6 | PQC Hybrid TLS / Research | ✅ v3.0.6 |
+| **Post-Quantum Browser** | PySide6 | PQC Hybrid TLS / Research | Revised |
 | **Cocoa Browser** | Cocoa (macOS) | Native macOS Privacy Build | ✅ v4.1.2 |
 | **Shadow Browser** | PySide6 | Hardened General Purpose - Linux/Windows | 🧪 Beta |
 | **Darkelf Retro CLI Hub** | Python | CLI Retro Tools | ✅ Public |
@@ -213,7 +213,7 @@ Full list: [Contributors.md](https://github.com/Darkelf2024/Darkelf-Browser/blob
 |---|-------------|--------------|
 | 1 | [Darkelf-Browser-Hub](https://github.com/Darkelf2024/Darkelf-Browser) | Core docs, anti-forensics, swap-disable guides |
 | 2 | [Darkelf-RedSec-Browser] | Private Repo |
-| 4 | [Darkelf-PySide6-Browser-PQC](https://github.com/Darkelf2024/Darkelf-PySide6-Browser-PQC) | Post-Quantum hardened build (v3.0.6) |
+| 4 | [Darkelf Quantum] | Revised |
 | 5 | [Darkelf-Cocoa-Browser](https://github.com/Darkelf2024/Darkelf-Cocoa-Browser) | macOS-native variant |
 | 6 | [Darkelf-Shadow] | Linux & Windows edition |
 | 7 | [Darkelf-Retro-CLI-Hub](https://github.com/Darkelf2024/Darkelf-Retro-CLI-Hub) | Retro CLI launcher |
