@@ -11,6 +11,8 @@
 Darkelf is a suite of **privacy-first browsers and tools** engineered for **cybersecurity research, digital forensics, red-team simulations, and post-quantum cryptography evaluation**.  
 Every variant is built to eliminate forensic footprints, block tracking, and secure all data — with RAM-only sessions, Tor integration, and cutting-edge PQC encryption.
 
+Browsers that are Revised = Currently in Private Repos being Rewritten, Enhanced for a smoother experience - Mecha Comet is assisting with Darkelf Shadow! Darkelf Devs are hard at work!
+
 🌐 [Website](https://darkelfbrowser.com) • 💬 Discord *(Invite-only)* • 🧠 [Docs & Guides](https://github.com/Darkelf2024/Darkelf-Browser)
 
 ---
@@ -19,10 +21,10 @@ Every variant is built to eliminate forensic footprints, block tracking, and sec
 
 | Edition | Framework | Focus | Status |
 |----------|------------|--------|---------|
-| **RedSec Browser** | PySide6 | Lightweight Stealth / RAM-only | ✅ v4.0 |
+| **RedSec Browser** | PySide6 | Lightweight Stealth / RAM-only | ✅ Revised |
 | **Darkelf Quantum** | PySide6 | PQC Hybrid TLS / Research | Revised |
 | **Cocoa Browser** | Cocoa (macOS) | Native macOS Privacy Build | ✅ v4.1.2 |
-| **Shadow Browser** | PySide6 | Hardened General Purpose - Linux/Windows | 🧪 Beta |
+| **Shadow Browser** | PySide6 | Hardened General Purpose - Linux/Windows | 🧪 Revised |
 | **Darkelf Retro CLI Hub** | Python | CLI Retro Tools | ✅ Public |
 | **Darkelf Web Browser Site** | HTML/CSS | Docs / Website / Branding | ✅ Public |
 | **PQC Engine / Mini Engine** | PySide6 | PQC Core Engine | ⚙️ In Development |
