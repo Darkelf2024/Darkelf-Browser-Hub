@@ -20,7 +20,7 @@ Every variant is built to eliminate forensic footprints, block tracking, and sec
 | Edition | Framework | Focus | Status |
 |----------|------------|--------|---------|
 | **RedSec Browser** | PySide6 | Lightweight Stealth / RAM-only | ✅ v4.0 |
-| **Post-Quantum Browser** | PySide6 | PQC Hybrid TLS / Research | Revised |
+| **Darkelf Quantum** | PySide6 | PQC Hybrid TLS / Research | Revised |
 | **Cocoa Browser** | Cocoa (macOS) | Native macOS Privacy Build | ✅ v4.1.2 |
 | **Shadow Browser** | PySide6 | Hardened General Purpose - Linux/Windows | 🧪 Beta |
 | **Darkelf Retro CLI Hub** | Python | CLI Retro Tools | ✅ Public |
