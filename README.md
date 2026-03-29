@@ -23,7 +23,7 @@ Browsers that are Revised = Currently in Private Repos being Rewritten, Enhanced
 |----------|------------|--------|---------|
 | **RedSec Browser** | PySide6 | Lightweight Stealth / RAM-only | ✅ Revised |
 | **Darkelf Quantum** | PySide6 | PQC Hybrid TLS / Research | Revised |
-| **Cocoa Browser** | Cocoa (macOS) | Native macOS Privacy Build | ✅ v4.1.3 |
+| **Cocoa Browser** | Cocoa (macOS) | Native macOS Privacy Build | ✅ v4.1.9 |
 | **Shadow Browser** | PySide6 | Hardened General Purpose - Linux/Windows | 🧪 Revised |
 | **Darkelf Retro CLI Hub** | Python | CLI Retro Tools | ✅ Public |
 | **Darkelf Web Browser Site** | HTML/CSS | Docs / Website / Branding | ✅ Public |
