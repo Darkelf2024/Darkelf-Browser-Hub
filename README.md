@@ -10,7 +10,7 @@
 
 Darkelf is a modular ecosystem of **privacy-first browsers and security tools** designed for **cybersecurity research, digital forensics, and post-quantum integrity validation**.
 
-🌐 [Website](https://darkelfbrowser.com) • 💬 Discord * Session * • 🧠 [Docs & Guides](https://github.com/Darkelf2024/Darkelf-Browser)
+🌐 [Website](https://darkelfbrowser.com) • 💬 Discord • Session • 🧠 [Docs & Guides](https://github.com/Darkelf2024/Darkelf-Browser)
 
 ---
 
