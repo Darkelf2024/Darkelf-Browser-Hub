@@ -91,7 +91,7 @@ Python • PySide6 • PyObjC • WebKit • HTML/CSS • Ollama • Tor • Pos
 * ⚡ [Darkelf Quantum](https://github.com/Darkelf2024/Darkelf-Quantum) — PQC / high-performance core *(Revised)*
 * 🔴 [Darkelf RedSec](#) — Security-focused stealth build *(Private / Revised)*
 * 🌑 [Darkelf Shadow](https://github.com/Darkelf2024/Darkelf-Shadow) — Hardened general-purpose *(Revised)*
-* 🍫 [Darkelf Cocoa 4.2.0](https://github.com/Darkelf2024/Darkelf-Cocoa-Browser) — macOS native stable build
+* 🍫 [Darkelf Cocoa](https://github.com/Darkelf2024/Darkelf-Cocoa-Browser) — macOS native stable build
 
 ---
 
